@@ -1,0 +1,115 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #1e1e1e, #121212);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* Container styling */
+.login-container {
+  background: rgba(40, 40, 40, 0.9);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 255, 135, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Heading */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #00e676;
+}
+
+/* Labels */
+.login-container label {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+/* Inputs */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2d2d2d;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.login-container input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #00e676;
+}
+
+/* Button */
+.login-container button {
+  margin-top: 24px;
+  width: 100%;
+  padding: 12px;
+  background-color: #00e676;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #00c853;
+}
+
+/* Register link */
+.message {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.message a {
+  color: #00e676;
+  text-decoration: none;
+}
+
+.message a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+.login-message {
+  padding: 20px 30px;
+  background-color: #2d2d2d;
+  color: #00e676;
+  border: 2px solid #00e676;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 255, 135, 0.2);
+}
+
+.login-message:hover {
+  background-color: #00e676;
+  color: #000;
+}
